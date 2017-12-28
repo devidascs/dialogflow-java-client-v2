@@ -39,7 +39,7 @@ public class DetectIntentTextsIT {
   private ByteArrayOutputStream bout;
   private DetectIntentTexts detectIntentTexts;
   private PrintStream out;
-  private static String PROJECT_ID = System.getenv().get("GOOGLE_CLOUD_PROJECT");
+  private static String PROJECT_ID = "setochat-20a42";
   private static String SESSION_ID = "fake_session_for_testing";
   private static String LANGUAGE_CODE = "en-US";
   private static List<String> TEXTS = Arrays.asList("hello", "book a meeting room", "Mountain View",

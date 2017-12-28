@@ -93,7 +93,7 @@ public class DetectIntentTexts {
       }
 
       for (int i = 2; i < args.length; i++) {
-        switch (args[i]) {
+         switch (args[i]) {
           case "--sessionId":
             sessionId = args[++i];
             break;
